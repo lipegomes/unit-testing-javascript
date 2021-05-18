@@ -14,17 +14,17 @@ npm install
 
 - In package.json add:
 
-  - Linux or Mac:
+  Linux or Mac:
 
-    "test": "./node_modules/.bin/mocha --reporter spec **/*.test.js​"
+  "test": "./node_modules/.bin/mocha --reporter spec **/*.test.js​"
 
-    "coverage": "node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha -- --reporter spec **/*.test.js"
+  "coverage": "node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha -- --reporter spec **/*.test.js"
 
-  - Windows:
+  Windows:
 
-    "test": "node_modules\\.bin\\mocha --reporter spec **/*.test.js"
+  "test": "node_modules\\.bin\\mocha --reporter spec **/*.test.js"
 
-    "coverage": "node_modules\\.bin\\istanbul cover node_modules\\mocha\\bin\\_mocha -- --reporter spec **/*.test.js"
+  "coverage": "node_modules\\.bin\\istanbul cover node_modules\\mocha\\bin\\_mocha -- --reporter spec **/*.test.js"
 
 
 ## Run tests
