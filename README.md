@@ -24,7 +24,7 @@ npm install
 npm test
 ```
 
-![](https://github.com/lipegomes/unit-testing/blob/main/assets/img/npm_test.png)
+![](https://github.com/lipegomes/unit-testing-javascript/blob/main/assets/img/npm_test.png)
 
 ## Code coverage
 
@@ -32,7 +32,7 @@ npm test
 npm run coverage
 ```
 
-![](https://github.com/lipegomes/unit-testing/blob/main/assets/img/npm_run_coverage.png)
+![](https://github.com/lipegomes/unit-testing-javascript/blob/main/assets/img/npm_run_coverage.png)
 
 ## References
 
