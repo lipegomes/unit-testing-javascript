@@ -13,11 +13,11 @@ npm install
 ```
 
 - In package.json add:
-  ```
+
   "test": "node_modules\\.bin\\mocha --reporter spec **/*.test.js"
 
   "coverage": "node_modules\\.bin\\istanbul cover node_modules\\mocha\\bin\\_mocha -- --reporter spec **/*.test.js"
-  ```
+
 
 ## Run tests
 
